@@ -1,0 +1,26 @@
+           +-------------------+
+           |   iPhone          |
+           +-------------------+
+           | - modelo: String  |
+           +-------------------+
+           | + tocarMusica()   |
+           | + pausarMusica()  |
+           | + selecionarMusica() |
+           | + fazerChamada()  |
+           | + receberChamada()|
+           | + encerrarChamada()|
+           | + navegarPara()   |
+           | + atualizarPagina()|
+           | + adicionarFavoritos()|
+           +-------------------+
+                    /|\
+                     |
+        +------------+-------------+
+        |                          |
++---------------+            +---------------+
+|ReprodutorMusical|          |AparelhoTelefonico|
++----------------+           +----------------+
+|+tocarMusica()  |           |+fazerChamada() |
+|+pausarMusica() |           |+receberChamada()|
+|+selecionarMusica()|        |+encerrarChamada()|
++----------------+           +----------------
